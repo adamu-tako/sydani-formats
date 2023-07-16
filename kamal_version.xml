@@ -1,0 +1,855 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+
+<html> 
+
+  <head> 
+
+    <!-- Compiled with Bootstrap Email version: 1.3.1 --><meta http-equiv="x-ua-compatible" content="ie=edge"> 
+
+    <meta name="x-apple-disable-message-reformatting"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no"> 
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+
+    <style type="text/css"> 
+
+      body,table,td{font-family:Helvetica,Arial,sans-serif !important}.ExternalClass{width:100%}.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:150%}a{text-decoration:none}*{color:inherit}a[x-apple-data-detectors],u+#body a,#MessageViewBody a{color:inherit;text-decoration:none;font-size:inherit;font-family:inherit;font-weight:inherit;line-height:inherit}img{-ms-interpolation-mode:bicubic}table:not([class^=s-]){font-family:Helvetica,Arial,sans-serif;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-collapse:collapse}table:not([class^=s-]) td{border-spacing:0px;border-collapse:collapse}@media screen and (max-width: 600px){.w-full,.w-full>tbody>tr>td{width:100% !important}.p-1:not(table),.p-1:not(.btn)>tbody>tr>td,.p-1.btn td a{padding:4px !important}.p-3:not(table),.p-3:not(.btn)>tbody>tr>td,.p-3.btn td a{padding:12px !important}*[class*=s-lg-]>tbody>tr>td{font-size:0 !important;line-height:0 !important;height:0 !important}.s-2>tbody>tr>td{font-size:8px !important;line-height:8px !important;height:8px !important}.s-3>tbody>tr>td{font-size:12px !important;line-height:12px !important;height:12px !important}.s-10>tbody>tr>td{font-size:40px !important;line-height:40px !important;height:40px !important}} 
+
+    </style> 
+
+  </head> 
+
+  <body class="bg-light" style="outline: 0; width: 100%; min-width: 100%; height: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Helvetica, Arial, sans-serif; line-height: 24px; font-weight: normal; font-size: 16px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; color: #000000; margin: 0; padding: 0; border-width: 0;" bgcolor="#f7fafc"> 
+
+    <table class="bg-light body" valign="top" role="presentation" border="0" cellpadding="0" cellspacing="0" style="outline: 0; width: 100%; min-width: 100%; height: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Helvetica, Arial, sans-serif; line-height: 24px; font-weight: normal; font-size: 16px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; color: #000000; margin: 0; padding: 0; border-width: 0;" bgcolor="#f7fafc"> 
+
+      <tbody> 
+
+        <tr> 
+
+          <td valign="top" style="line-height: 24px; font-size: 16px; margin: 0;" align="left" bgcolor="#f7fafc"> 
+
+            <table class="container" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;"> 
+
+              <tbody> 
+
+                <tr> 
+
+                  <td align="center" style="line-height: 24px; font-size: 16px; margin: 0; padding: 0 16px;"> 
+
+                    <!--[if (gte mso 9)|(IE)]> 
+
+                      <table align="center" role="presentation"> 
+
+                        <tbody> 
+
+                          <tr> 
+
+                            <td width="600"> 
+
+                    <![endif]--> 
+
+                    <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px; margin: 0 auto;"> 
+
+                      <tbody> 
+
+                        <tr> 
+
+                          <td style="line-height: 24px; font-size: 16px; margin: 0;" align="left"> 
+
+                            <table class="s-10 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%"> 
+
+                              <tbody> 
+
+                                <tr> 
+
+                                  <td style="line-height: 40px; font-size: 40px; width: 100%; height: 40px; margin: 0;" align="left" width="100%" height="40"> 
+
+                                    &#160; 
+
+                                  </td> 
+
+                                </tr> 
+
+                              </tbody> 
+
+                            </table> 
+
+                            <table class="card" role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-radius: 6px; border-collapse: separate !important; width: 100%; overflow: hidden; border: 1px solid #e2e8f0;" bgcolor="#ffffff"> 
+
+                              <tbody> 
+
+                                <tr> 
+
+                                  <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left" bgcolor="#ffffff"> 
+
+                                    <table class="card-body" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;"> 
+
+                                      <tbody> 
+
+                                        <tr> 
+
+                                          <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 20px;" align="left"> 
+
+                                            <h1 class="h3  txt-bold" style="padding-top: 0; padding-bottom: 0; font-weight: bolder; vertical-align: baseline; font-size: 28px; line-height: 33.6px; margin: 0;" align="left">Travel Request from Sydani Group</h1> 
+
+                                            <table class="s-2 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%"> 
+
+                                              <tbody> 
+
+                                                <tr> 
+
+                                                  <td style="line-height: 8px; font-size: 8px; width: 100%; height: 8px; margin: 0;" align="left" width="100%" height="8"> 
+
+                                                    &#160; 
+
+                                                  </td> 
+
+                                                </tr> 
+
+                                              </tbody> 
+
+                                            </table> 
+
+                                            <h5 class="txt-md" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 14px; line-height: 24px; margin: 0;" align="left">Dear Kevlar, Please find below the travel details for booking. Kindly use this email thread for all further conversations regarding this trip</h5> 
+
+                                            <table class="s-3 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%"> 
+
+                                              <tbody> 
+
+                                                <tr> 
+
+                                                  <td style="line-height: 12px; font-size: 12px; width: 100%; height: 12px; margin: 0;" align="left" width="100%" height="12"> 
+
+                                                    &#160; 
+
+                                                  </td> 
+
+                                                </tr> 
+
+                                              </tbody> 
+
+                                            </table> 
+
+                                            <h5 class="txt-lg txt-bold" style="padding-top: 0; padding-bottom: 0; font-weight: bolder; vertical-align: baseline; font-size: 19px; line-height: 24px; margin: 0;" align="left">Basic Travel Itinery</h5> 
+
+                                            <table class="s-3 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%"> 
+
+                                              <tbody> 
+
+                                                <tr> 
+
+                                                  <td style="line-height: 12px; font-size: 12px; width: 100%; height: 12px; margin: 0;" align="left" width="100%" height="12"> 
+
+                                                    &#160; 
+
+                                                  </td> 
+
+                                                </tr> 
+
+                                              </tbody> 
+
+                                            </table> 
+
+                                             
+
+                                            <!--<h5 class="txt-lg txt-bold" style="padding-top: 0; padding-bottom: 0; font-weight: bolder; vertical-align: baseline; font-size: 19px; line-height: 24px; margin: 0;" align="left">Detailed Travel Itinery</h5>--> 
+
+                                            <!--<table class="s-3 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%">--> 
+
+                                            <!--  <tbody>--> 
+
+                                            <!--    <tr>--> 
+
+                                            <!--      <td style="line-height: 12px; font-size: 12px; width: 100%; height: 12px; margin: 0;" align="left" width="100%" height="12">--> 
+
+                                            <!--        &#160;--> 
+
+                                            <!--      </td>--> 
+
+                                            <!--    </tr>--> 
+
+                                            <!--  </tbody>--> 
+
+                                            <!--</table>--> 
+
+                                            
+
+                                            {%- for basic_itinery in doc.travel_itinerary -%} 
+
+                                            
+
+                                            {%- if basic_itinery.employee -%} 
+
+                                            <section> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <div class="hr" style="border-top-width: 1px; border-top-color: #D3D3D3; border-top-style: solid; margin-top: 3px; margin-bottom: 7px; margin-right: 25px;"></div> 
+
+                                                      <h5 style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 20px; line-height: 24px; margin: 0;" align="left">{{basic_itinery.employee}}</h5> 
+
+                                                      <div class="hr" style="border-top-width: 1px; border-top-color: #D3D3D3; border-top-style: solid; margin-top: 3px; margin-bottom: 7px; margin-right: 25px;"></div> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Departure Date</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{basic_itinery.departure_date}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Traveling From</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{basic_itinery.traveling_from_departure}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Return Date</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{basic_itinery.return_date}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Traveling To</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{ basic_itinery.traveling_to_departure}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <td class="col-12 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Travel Requirements</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{ 'Hotel' if basic_itinery.hotel else '' }} 
+
+                                                                {{ 'Car Hire ' if basic_itinery.car_hire else '' }} 
+
+                                                                {{ 'Flight ' if basic_itinery.flight else '' }} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                            </section> 
+
+                                            {%- endif -%} 
+
+                                            {%- endfor -%} 
+
+                                             
+
+                                             
+
+                                             <h5 class="txt-lg txt-bold" style="padding-top: 0; padding-bottom: 0; font-weight: bolder; vertical-align: baseline; font-size: 19px; line-height: 24px; margin: 0;" align="left">Detailed Travel Itinery</h5> 
+
+                                            <table class="s-3 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%"> 
+
+                                              <tbody> 
+
+                                                <tr> 
+
+                                                  <td style="line-height: 12px; font-size: 12px; width: 100%; height: 12px; margin: 0;" align="left" width="100%" height="12"> 
+
+                                                    &#160; 
+
+                                                  </td> 
+
+                                                </tr> 
+
+                                              </tbody> 
+
+                                            </table> 
+
+                                            {%- for detailed_itinery in doc.travel_itinerary_detailed -%} 
+
+                                             
+
+                                            {%- if detailed_itinery.departure_date1 -%} 
+
+                                            <section> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <div class="hr" style="border-top-width: 1px; border-top-color: #D3D3D3; border-top-style: solid; margin-top: 3px; margin-bottom: 7px; margin-right: 25px;"></div> 
+
+                                                      <h5 style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 20px; line-height: 24px; margin: 0;" align="left">First Trip</h5> 
+
+                                                      <div class="hr" style="border-top-width: 1px; border-top-color: #D3D3D3; border-top-style: solid; margin-top: 3px; margin-bottom: 7px; margin-right: 25px;"></div> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Departure Date</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{detailed_itinery.departure_date1}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Traveling From</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{detailed_itinery.traveling_from_departure1}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Return Date</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{detailed_itinery.return_date1}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Traveling To</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{ detailed_itinery.traveling_to1}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <td class="col-12 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Travel Requirements</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{ 'Hotel' if detailed_itinery.hotel1 else '' }} 
+
+                                                                {{ 'Car Hire ' if detailed_itinery.car_hire1 else '' }} 
+
+                                                                {{ 'Flight ' if detailed_itinery.flight1 else '' }} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                            </section> 
+
+                                            {%- endif -%} 
+
+                                             
+
+                                            {%- if detailed_itinery.departure_date2 -%} 
+
+                                            <section> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <div class="hr" style="border-top-width: 1px; border-top-color: #D3D3D3; border-top-style: solid; margin-top: 3px; margin-bottom: 7px; margin-right: 25px;"></div> 
+
+                                                      <h5 style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 20px; line-height: 24px; margin: 0;" align="left">Second Trip</h5> 
+
+                                                      <div class="hr" style="border-top-width: 1px; border-top-color: #D3D3D3; border-top-style: solid; margin-top: 3px; margin-bottom: 7px; margin-right: 25px;"></div> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Departure Date</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{detailed_itinery.departure_date2}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Traveling From</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{detailed_itinery.traveling_from2}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Return Date</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{detailed_itinery.return_date2}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                      <td class="col-6 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Traveling To</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{ detailed_itinery.traveling_to2}} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                              <div class="row" style="margin-right: -24px;"> 
+
+                                                <table class="" role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 100%;" width="100%"> 
+
+                                                  <tbody> 
+
+                                                    <tr> 
+
+                                                      <td class="col-12 p-3" style="line-height: 24px; font-size: 16px; min-height: 1px; font-weight: normal; margin: 0; padding: 12px 24px 12px 12px;" align="left" valign="top"> 
+
+                                                        <h6 class="txt-small" style="padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 12px; line-height: 19.2px; margin: 0;" align="left">Travel Requirements</h6> 
+
+                                                        <table class="p-1 bg-grey shadow w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="F5FAFA" width="100%"> 
+
+                                                          <tbody> 
+
+                                                            <tr> 
+
+                                                              <td style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; padding: 4px;" align="left" width="100%"> 
+
+                                                                {{ 'Hotel' if detailed_itinery.hotel2 else '' }} 
+
+                                                                {{ 'Car Hire ' if detailed_itinery.car_hire2 else '' }} 
+
+                                                                {{ 'Flight ' if detailed_itinery.flight2 else '' }} 
+
+                                                              </td> 
+
+                                                            </tr> 
+
+                                                          </tbody> 
+
+                                                        </table> 
+
+                                                      </td> 
+
+                                                    </tr> 
+
+                                                  </tbody> 
+
+                                                </table> 
+
+                                              </div> 
+
+                                            </section> 
+
+                                            {%- endif -%} 
+
+                                             
+
+                                            {%- endfor -%} 
+
+                                             
+
+                                          </td> 
+
+                                        </tr> 
+
+                                      </tbody> 
+
+                                    </table> 
+
+                                  </td> 
+
+                                </tr> 
+
+                              </tbody> 
+
+                            </table> 
+
+                            <table class="s-10 w-full" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="100%"> 
+
+                              <tbody> 
+
+                                <tr> 
+
+                                  <td style="line-height: 40px; font-size: 40px; width: 100%; height: 40px; margin: 0;" align="left" width="100%" height="40"> 
+
+                                    &#160; 
+
+                                  </td> 
+
+                                </tr> 
+
+                              </tbody> 
+
+                            </table> 
+
+                          </td> 
+
+                        </tr> 
+
+                      </tbody> 
+
+                    </table> 
+
+                    <!--[if (gte mso 9)|(IE)]> 
+
+                    </td> 
+
+                  </tr> 
+
+                </tbody> 
+
+              </table> 
+
+                    <![endif]--> 
+
+                  </td> 
+
+                </tr> 
+
+              </tbody> 
+
+            </table> 
+
+          </td> 
+
+        </tr> 
+
+      </tbody> 
+
+    </table> 
+
+  </body> 
+
+</html> 
+
+ 
