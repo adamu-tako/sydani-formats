@@ -1,7 +1,7 @@
 <div style="max-width: 1000px; outline: 1px solid;">
 
-        <!-- Styles start -->
-            <style>
+      <!-- Styles start -->
+      <style>
       .item-container {
         display: flex;
         flex-direction: column;
@@ -11,7 +11,7 @@
       }
 
       .main-heading {
-        font-size: .8rem;
+        font-size: 1rem;
         height: 3rem;
         font-weight: 600;
         display: flex;
@@ -26,7 +26,7 @@
       }
 
       .sub-heading {
-        font-size: .9rem;
+        font-size: 1.1rem;
         font-weight: 600;
       }
 
@@ -38,10 +38,9 @@
         display: flex;
         column-gap: 2rem;
         align-items: center;
-        padding-block: 10px;
       }
 
-      .item-container__row, .item-container__row-top > div {
+      .item-container__row > div {
         width: 50%;
         /* padding-left: 100px; */
         /* border: 1px solid red; */
@@ -61,15 +60,8 @@
        height: 10px;
        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='100%' width='100%'><defs><pattern id='line' width='20' height='20' patternTransform='rotate(0 0 0)' patternUnits='userSpaceOnUse'> <line x1='0' y1='4' x2='20' y2='4' stroke='%23474747' stroke-width='4' /> </pattern></defs><rect width='100%' height='100%' fill='url(%23line)'/></svg>");
     }
-    
-   .item-container__row-top {
-        display: flex;
-        column-gap: 2rem;
-        align-items: center;
-        padding-block: 2px;
-      }
   </style>
-        <!-- Styles end -->
+  <!-- Styles end -->
 
       <header
         style="
@@ -77,104 +69,37 @@
           column-gap: 2rem;
           align-items: center;
           border-bottom: 4px solid #474747;
-          padding: .4rem;
         ">
         <div style="width: 5rem; height: 5rem; aspect-ratio: 1/1">
           <img
             width="100%"
             height="100%"
-            src="/private/files/sydaniLogo.svg"
+            src="/sydaniLogo.svg"
             alt="Company logo" />
         </div>
         <div>
-          <h4>SYDANI INITIATIVE FOR INTERNATIONAL DEVELOPMENT</h4>
-          <h6>
+          <h2>SYDANI INITIATIVE FOR INTERNATIONAL DEVELOPMENT</h2>
+          <h5>
             Plot 1422 Independence Avenue, Central Business District, Abuja
-          </h6>
+          </h5>
         </div>
       </header>
 
-      <main style="min-height: 500px; margin-top: 10px; padding: .2rem 1rem;">
+      <main style="min-height: 500px; margin-top: 10px; padding: 1rem 3rem;">
         <div>
           <div style="width: 100%; text-align: center;">
-            <h2>Travel Request from Sydani Group</h2>
+            <h2>Travel Request from Sydani Group</h1>
           </div>
           <div>
-            <p style="font-size: 1.1rem;">
+            <p style="font-size: 1.5rem;">
               Dear Kevlar, Please find below the travel details for booking. Kindly use this email thread for all further conversations regarding this trip.
             </p>
           </div>
         </div>
 
-        <div class="trip-details">
-            <div id="general-trip-details">
-                
-              <div class="item-container__row-top">
-                <div style="display: flex;">
-                  <p><b>Workflow State:</b> {{doc.workflow_state}}</p>
-                </div>
-              </div>
-              
-               <div class="item-container__row-top">
-                <div>
-                  <p><b>Created By:</b> {{doc.created_by}}</p>
-                </div>
-                <div>
-                  <p><b>Project Lead:</b> {{doc.project_lead}}</p>
-                </div>
-              </div>
-              
-              <div class="item-container__row-top">
-                <div>
-                  <p><b>Creator's Email:</b> {{doc.creators_email}}</p>
-                </div>
-                <div>
-                  <p><b>Project Lead's Email:</b> {{doc.project_leads_email}}</p>
-                </div>
-              </div>
-              
-                <div class="item-container__row-top">
-                <div>
-                  <p><b>Purpose of the Trip:</b> {{doc.purpose_of_trip}}</p>
-                </div>
-                <div>
-                  <p><b>Project Name:</b> {{doc.project_name}}</p>
-                </div>
-              </div>
-              
-              <div class="item-container__row-top">
-                <div>
-                  <p><b>Trip Start Date:</b> {{doc.trip_start_date}}</p>
-                </div>
-                <div>
-                  <p><b>Project Manager:</b> {{doc.project_manager}}</p>
-                </div>
-              </div>
-              
-                <div class="item-container__row-top">
-                <div>
-                  <p><b>Trip End Date:</b> {{doc.trip_end_date}}</p>
-                </div>
-                <div>
-                  <p><b>Project Manager:</b> {{doc.managers_email}}</p>
-                </div>
-              </div>
-              
-                <div class="item-container__row-top">
-                <div>
-                  <p><b>Responsible Person:</b> {{doc.responsible_person}}</p>
-                </div>
-              </div>
-              
-               <div class="item-container__row-top">
-                <div>
-                  <p><b>Grand Total:</b> {{doc.grand_total}}</p>
-                </div>
-              </div>
-              
-            </div>
-        <div class="basic-trip-itinerary">
-          <h3>Basic Travel Itinerary</h3>
+        <div class="trip-details" style="padding-inline: 2rem;">
+        <div class="basic-trip-itinerary" style="padding-inline: 1rem;">
+          <h2>Basic Travel Itinerary</h2>
 
           {% if doc.travel_retirement %}
   {%- for row in doc.travel_retirement -%} 
@@ -188,9 +113,9 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire else '' }}</span>
-                  <span>{{ 'Flight' if row.flight else '' }}</span>
+                <span>{{ 'Hotel' if row.hotel else '' }}</span>,
+                  <span>{{ 'Car Hire ' if row.car_hire else '' }}</span>,
+                  <span>{{ 'Flight ' if row.flight else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
@@ -269,10 +194,10 @@
           <h2>Detailed Travel Itinerary</h2>
 
           {% if doc.travel_itinerary_detailed_retirement %}
-  {%- for row in doc.travel_itinerary_detailed_retirement -%} 
+  {%- for detailed_itinery in doc.travel_itinerary_detailed_retirement -%} 
 
-  <h3>Traveler: {{ row.employee }}</h3>
-    {%- if row.departure_date1 -%} 
+  <h3>Traveler: {{ detailed_itinery.employee }}</h3>
+    {%- if detailed_itinery.departure_date1 -%} 
              <div class="item-container">
             <div class="main-heading">
               <div>
@@ -280,36 +205,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel1 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire1 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight1 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel1 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire1 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight1 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure1}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure1}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from1}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure1}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date1}}</p>
+                  <p>{{detailed_itinery.return_date1}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to1}} </p>
+                  <p>{{ detailed_itinery.traveling_to1}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date2 -%} 
+    {%- if detailed_itinery.departure_date2 -%} 
           <div class="item-container">
             <div class="main-heading">
               <div>
@@ -317,36 +242,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel2 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire2 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight2 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel2 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire2 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight2 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure2}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure2}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from2}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure2}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date2}}</p>
+                  <p>{{detailed_itinery.return_date2}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to2}} </p>
+                  <p>{{ detailed_itinery.traveling_to2}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date3 -%} 
+    {%- if detailed_itinery.departure_date3 -%} 
             <div class="item-container">
             <div class="main-heading">
               <div>
@@ -354,36 +279,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel3 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire3 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight3 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel3 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire3 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight3 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure3}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure3}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from3}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure3}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date3}}</p>
+                  <p>{{detailed_itinery.return_date3}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to3}} </p>
+                  <p>{{ detailed_itinery.traveling_to3}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date4 -%} 
+    {%- if detailed_itinery.departure_date4 -%} 
             <div class="item-container">
             <div class="main-heading">
               <div>
@@ -391,36 +316,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel4 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire4 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight4 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel4 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire4 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight4 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure4}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure4}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from4}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure4}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date4}}</p>
+                  <p>{{detailed_itinery.return_date4}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to4}} </p>
+                  <p>{{ detailed_itinery.traveling_to4}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date5 -%} 
+    {%- if detailed_itinery.departure_date5 -%} 
             <div class="item-container">
             <div class="main-heading">
               <div>
@@ -428,30 +353,30 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel5 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire5 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight5 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel5 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire5 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight5 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure5}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure5}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from5}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure5}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date5}}</p>
+                  <p>{{detailed_itinery.return_date5}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to5}} </p>
+                  <p>{{ detailed_itinery.traveling_to5}} </p>
                 </div>
               </div>
             </div>
@@ -460,9 +385,9 @@
           <hr class="line-divider" />
   {%- endfor -%} 
   {% elif doc.travel_itinerary_detailed %}
-    {%- for row in doc.travel_itinerary_detailed -%} 
-    <h3>Traveler: {{ row.employee }}</h3>
-          {%- if row.departure_date1 -%} 
+    {%- for detailed_itinery in doc.travel_itinerary_detailed -%} 
+    <h3>Traveler: {{ detailed_itinery.employee }}</h3>
+          {%- if detailed_itinery.departure_date1 -%} 
              <div class="item-container">
             <div class="main-heading">
               <div>
@@ -470,36 +395,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel1 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire1 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight1 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel1 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire1 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight1 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure1}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure1}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from1}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure1}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date1}}</p>
+                  <p>{{detailed_itinery.return_date1}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to1}} </p>
+                  <p>{{ detailed_itinery.traveling_to1}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date2 -%} 
+    {%- if detailed_itinery.departure_date2 -%} 
           <div class="item-container">
             <div class="main-heading">
               <div>
@@ -507,36 +432,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel2 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire2 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight2 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel2 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire2 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight2 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure2}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure2}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from2}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure2}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date2}}</p>
+                  <p>{{detailed_itinery.return_date2}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to2}} </p>
+                  <p>{{ detailed_itinery.traveling_to2}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date3 -%} 
+    {%- if detailed_itinery.departure_date3 -%} 
             <div class="item-container">
             <div class="main-heading">
               <div>
@@ -544,36 +469,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel3 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire3 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight3 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel3 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire3 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight3 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure3}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure3}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from3}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure3}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date3}}</p>
+                  <p>{{detailed_itinery.return_date3}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to3}} </p>
+                  <p>{{ detailed_itinery.traveling_to3}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date4 -%} 
+    {%- if detailed_itinery.departure_date4 -%} 
             <div class="item-container">
             <div class="main-heading">
               <div>
@@ -581,36 +506,36 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel4 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire4 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight4 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel4 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire4 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight4 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure4}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure4}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from4}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure4}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date4}}</p>
+                  <p>{{detailed_itinery.return_date4}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to4}} </p>
+                  <p>{{ detailed_itinery.traveling_to4}} </p>
                 </div>
               </div>
             </div>
           </div>
     {%- endif -%} 
-    {%- if row.departure_date5 -%} 
+    {%- if detailed_itinery.departure_date5 -%} 
             <div class="item-container">
             <div class="main-heading">
               <div>
@@ -618,30 +543,30 @@
               </div>
               <div>
                 <span>Travel Requirements:</span>
-                <span>{{ 'Hotel,' if row.hotel5 else '' }}</span>
-                  <span>{{ 'Car Hire,' if row.car_hire5 else '' }}</span>
-                  <span>{{ 'Flight ' if row.flight5 else '' }}</span>
+                <span>{{ 'Hotel' if detailed_itinery.hotel5 else '' }}</span>,
+                  <span>{{ 'Car Hire ' if detailed_itinery.car_hire5 else '' }}</span>,
+                  <span>{{ 'Flight ' if detailed_itinery.flight5 else '' }}</span>
               </div>
             </div>
             <div class="item-container__body">
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Departure Date</p>
-                  <p>{{row.traveling_from_departure5}}</p>
+                  <p>{{detailed_itinery.traveling_from_departure5}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling From</p>
-                  <p>{{row.traveling_from5}} </p>
+                  <p>{{detailed_itinery.traveling_from_departure5}} </p>
                 </div>
               </div>
               <div class="item-container__row">
                 <div>
                   <p class="sub-heading">Return Date</p>
-                  <p>{{row.return_date5}}</p>
+                  <p>{{detailed_itinery.return_date5}}</p>
                 </div>
                 <div>
                   <p class="sub-heading">Traveling To</p>
-                  <p>{{ row.traveling_to5}} </p>
+                  <p>{{ detailed_itinery.traveling_to5}} </p>
                 </div>
               </div>
             </div>
@@ -653,39 +578,6 @@
         </div>
         </div>
 
-<div class="table-container" style="padding-inline: 1rem;">
-     <h2>Travel Logistics</h2>
 
-    <div style="border-radius: 12px; overflow: hidden;">
-    <table style="width: 100%; border-collapse: collapse;">
-      <thead style="background: #E7E7E7">
-        <tr>
-          <th style="text-align: left; border: 1px solid #E7E7E7; padding: 8px;">S/N</th>
-          <th style="text-align: left; border: 1px solid #E7E7E7; padding: 8px;">Category</th>
-          <th style="text-align: left; border: 1px solid #E7E7E7; padding: 8px;">Location</th>
-          <th style="text-align: left; border: 1px solid #E7E7E7; padding: 8px;">Units</th>
-          <th style="text-align: left; border: 1px solid #E7E7E7; padding: 8px;">Comment</th>
-        </tr>
-      </thead>
-      <tbody>
-         {%- for row in doc.travel_logistics -%} 
-            <tr>
-              <td style="border: 1px solid #E7E7E7; padding: 8px;">{{ loop.index }}</td>
-            <td style="border: 1px solid #E7E7E7; padding: 8px;">{{ row.category }}</td>
-              <td style="border: 1px solid #E7E7E7; padding: 8px;">{{ row.location }}</td>
-              <td style="border: 1px solid #E7E7E7; padding: 8px;">{{ row.units }}</td>
-              <td style="border: 1px solid #E7E7E7; padding: 8px;">{{ row.comment }}</td>
-            </tr>
-         {%- endfor -%}
-      </tbody>
-    </table>
+      </main>
     </div>
-  </div>
-  
-  <div style="padding-inline: 1rem; margin-top: 2rem;">
-<div style="border-top: 2px solid black; font-style: italic; text-align: center;">
-<p>Redefining Excellence Consistently</p>
-</div>
-</div>
-</main>
-</div>
